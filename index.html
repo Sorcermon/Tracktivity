@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Something Awesome</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" tpye="text/css" href="css/flatly.css">
+	<script type="text/javascript" src="js/buttons.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+</head>
+<body onload="setup()">
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="text-center">Title Pending</h1>
+			<p class="text-center">Habit tracking web app</p>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-sm-12">
+				<div class="jumbotron">
+					<h2>Defecations</h2>
+					<p>Total number: Yes</p>
+					<button type="button" class="btn btn-warning">I've done this!</button>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-12">
+				<div class="jumbotron">
+					<h2>Haircuts</h2>
+					<p>Total number: <span id="haircutNo">LOADING</span></p>
+					<button type="button" class="btn btn-success" onclick="updateHaircuts(1)">I've done this!</button>
+					<button type="button" class="btn btn-danger" onclick="updateHaircuts(-1)">Aboot</button>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-12">
+				<div class="jumbotron">
+					<h2>Instances of maturity</h2>
+					<p>Total number: -420.420</p>
+					<button type="button" class="btn btn-warning">I've done this!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
