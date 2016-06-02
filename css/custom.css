@@ -1,0 +1,24 @@
+body{
+	background-color: #9b59b6;
+	color: #ecf0f1;
+}
+
+.mainHeader{
+	margin-bottom: 20px;
+}
+
+.element{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.well{
+	background-color: #8e44ad;
+	border: none;
+	padding-left: 29px;
+	padding-right: 29px;
+}
+
+.done{
+	margin-bottom: 10px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Something Awesome</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" tpye="text/css" href="css/flatly.css"> -->
+    <link rel="stylesheet" tpye="text/css" href="css/custom.css">
+    <script type="text/javascript" src="js/buttons.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+</head>
+<body onload="setup()">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center">Title Pending</h1>
+            <p class="text-center">Habit tracking web app</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="jumbotron">
+                    <h2>Defecations</h2>
+                    <p>Total number: Yes</p>
+                    <button type="button" class="btn btn-warning">I've done this!</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="jumbotron">
+                    <h2>Haircuts</h2>
+                    <p>Total number: <span id="haircutNo">LOADING</span></p>
+                    <button type="button" class="btn btn-success" onclick="updateHaircuts(1)">I've done this!</button>
+                    <button type="button" class="btn btn-danger" onclick="updateHaircuts(-1)">Aboot</button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="jumbotron">
+                    <h2>Instances of maturity</h2>
+                    <p>Total number: -420.420</p>
+                    <button type="button" class="btn btn-warning">I've done this!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
