@@ -32,27 +32,27 @@
         <div class="row">
             <div class="col-lg-4 col-sm-12">
                 <div class="well">
-                    <h2>Defecations</h2>
-                    <p>Total number: Yes</p>
-                    <button type="button" class="btn btn-lg btn-success disabled"><span class="glyphicon glyphicon-thumbs-up"></span> I've done this!</button>
-                    <button type="button" class="btn btn-lg btn-danger pull-right disabled">Undo</button>
+                    <h2>Workouts</h2>
+                    <p>Total number: <span id="workoutNo">0</span></p>
+                    <button type="button" class="btn btn-lg btn-success" onclick="updateWorkouts(1)"><span class="glyphicon glyphicon-thumbs-up"></span> I've done this!</button>
+                    <button type="button" class="btn btn-lg btn-danger pull-right" onclick="updateWorkouts(-1)">Undo</button>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-12">
                 <div class="well">
                     <h2>Haircuts</h2>
-                    <p>Total number: <span id="haircutNo">LOADING</span></p>
+                    <p>Total number: <span id="haircutNo">0</span></p>
                     <button type="button" class="btn btn-lg btn-success" onclick="updateHaircuts(1)"><span class="glyphicon glyphicon-thumbs-up"></span> I've done this!</button>
                     <button type="button" class="btn btn-lg btn-danger pull-right" onclick="updateHaircuts(-1)">Undo</button>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-12">
                 <div class="well">
-                    <h2>Instances of maturity</h2>
-                    <p>Total number: -420.69</p>
-                    <button type="button" class="btn btn-lg btn-success disabled"><span class="glyphicon glyphicon-thumbs-up"></span> I've done this!</button>
+                    <h2>Study sessions</h2>
+                    <p>Total number: <span id="studyNo">0</span></p>
+                    <button type="button" class="btn btn-lg btn-success" onclick="updateStudy(1)"><span class="glyphicon glyphicon-thumbs-up"></span> I've done this!</button>
                     
-                    <button type="button" class="btn btn-lg btn-danger pull-right disabled">Undo</button>
+                    <button type="button" class="btn btn-lg btn-danger pull-right" onclick="updateStudy(-1)">Undo</button>
                 </div>
             </div>
         </div>
